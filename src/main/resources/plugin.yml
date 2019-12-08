@@ -1,0 +1,6 @@
+name: SkRegion
+author: FerrissBueller
+description: A Skript addon to get list of application regions for a loc
+version: 1.6.4.1-fork-1.12
+main: me.FerrissBueller.SkRegion.SkRegion
+softdepend: [Skript, WorldEdit, WorldGuard]

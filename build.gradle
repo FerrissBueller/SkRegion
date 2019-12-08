@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'me.FerrissBueller'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files("libs/Skript.jar","libs/spigot-1.14.4.jar","libs/worldguard-bukkit-7.0.1.jar", "libs/worldedit-bukkit-7.0.1.jar")
+}
